@@ -3,6 +3,7 @@ import json
 
 
 class Text:
+    
     @staticmethod
     def load(path, lines=False):
         with open(path, "r") as file:
