@@ -1,4 +1,4 @@
-from dask.distributed import Client, LocalCluster
+from dask_utils.distributed import Client, LocalCluster
 
 
 class LocalRunner:
